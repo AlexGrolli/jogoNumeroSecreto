@@ -1,5 +1,5 @@
 let listaDeNumeroSorteados = [];
-let limiteNumero = 10;
+let limiteNumero = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa = 0;
 
@@ -29,7 +29,7 @@ function limparCampo(){
 }
 function mensagemInicial(){
     exibirTextoNaTela("h1","Jogo do numero secreto");
-    exibirTextoNaTela("p","Escolha um numero entre 1 e 10");
+    exibirTextoNaTela("p","Escolha um numero entre 1 e 100");
 }
 mensagemInicial();
 //Quem esta chamando a funcao e a tag button onclick no html
